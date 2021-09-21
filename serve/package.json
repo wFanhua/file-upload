@@ -11,10 +11,13 @@
     "start": "nodemon"
   },
   "dependencies": {
+    "@types/koa-static": "^4.0.2",
     "dotenv": "^8.2.0",
     "koa": "^2.7.0",
+    "koa-body": "^4.2.0",
     "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
     "@types/koa": "^2.0.48",

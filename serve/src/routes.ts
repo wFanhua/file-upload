@@ -1,9 +1,10 @@
-import homeController from './controller/home-controller';
+import homeController from "./controller/home-controller";
+import uploadController from "./controller/upload-controller";
 
 export default [
   {
-    path: '/',
-    method: 'get',
-    action: homeController.hello
-  }
+    path: "/upload/form",
+    method: "post",
+    action: uploadController.form,
+  },
 ];
